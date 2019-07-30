@@ -1,0 +1,16 @@
+<wiidisc version="1">
+	<id game="SMN"/>
+		<options>
+			<section name="NSMBW Easy Boss">
+				<option name="NSMBW Easy Boss">
+					<choice name="Enabled">
+						<patch id="reggiefolder"/>
+					</choice>
+				</option>
+			</section>
+		</options>
+		<patch id="reggiefolder">
+		<folder external="/reggie" recursive="false"/>
+		<folder external="/reggie" disc="/"/>
+	</patch>
+</wiidisc>
